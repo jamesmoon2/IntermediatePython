@@ -43,3 +43,20 @@ my_list.sort() #sorts alphabetically, permanently. You can also create a new lis
 
 print(my_list)
 
+my_list = [0] * 5
+
+print(my_list)
+
+my_list = [1, 2, 3, 4, 5]
+
+my_list2 = [6, 7, 8, 9]
+
+new_list = my_list + my_list2
+
+print(new_list)
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+a = my_list[1:5]  #selects a portion of a list based on index
+
+print(a)
