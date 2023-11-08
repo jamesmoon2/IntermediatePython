@@ -57,6 +57,20 @@ print(new_list)
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-a = my_list[1:5]  #selects a portion of a list based on index
+a = my_list[1:5]  #selects a portion of a list based on index; if you dont specify a start, it starts at 0 and if
+# you dont specify an endpoint, it stops at the end
 
 print(a)
+
+b = my_list[1::]  # double colons is the step; default is one, 2 = every second item, etc
+
+list_org = ["banana", "cherry", "apple"]
+
+list_cpy = list_org # copies list; sets them equal;
+    # .copy method makes an actual copy or list function
+    # and use orignal list as an argument or use a slice [:]
+
+## modiying a copy will also modify the original list
+
+
+
