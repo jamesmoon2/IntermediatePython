@@ -14,3 +14,10 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+# testing writing code from my mobile device
+
+name = input("What is your name? ")
+
+print("Hi " + name + " welcome to the program")
