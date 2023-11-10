@@ -4,7 +4,7 @@ my_list = ["Banana", "Cherry", "Apple"]
 
 print(my_list)
 
-item = my_list[0]
+item = my_list[0] #selects an item from the list at index 0
 print(item)
 
 for fruit in my_list: #the "fruit" lable does not matter. it will just run through the items in the list
