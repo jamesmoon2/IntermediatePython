@@ -7,7 +7,7 @@ print(my_list)
 item = my_list[0]
 print(item)
 
-for fruit in my_list:
+for fruit in my_list: #the "fruit" lable does not matter. it will just run through the items in the list
     print(fruit)
 
 if "Cherry" in my_list:  #search within a list
