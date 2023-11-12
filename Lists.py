@@ -43,7 +43,7 @@ my_list.sort() #sorts alphabetically, permanently. You can also create a new lis
 
 print(my_list)
 
-my_list = [0] * 5
+my_list = [0] * 5 # select an index and execute a function on it
 
 print(my_list)
 
