@@ -4,10 +4,10 @@ my_list = ["Banana", "Cherry", "Apple"]
 
 print(my_list)
 
-item = my_list[0]
+item = my_list[0] #selects an item from the list at index 0
 print(item)
 
-for fruit in my_list:
+for fruit in my_list: #the "fruit" lable does not matter. it will just run through the items in the list
     print(fruit)
 
 if "Cherry" in my_list:  #search within a list
@@ -43,7 +43,7 @@ my_list.sort() #sorts alphabetically, permanently. You can also create a new lis
 
 print(my_list)
 
-my_list = [0] * 5
+my_list = [0] * 5 # select an index and execute a function on it
 
 print(my_list)
 
