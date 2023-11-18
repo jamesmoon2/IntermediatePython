@@ -6,7 +6,15 @@ mytuple = ("Max", 28, "Boston")
 
 print(mytuple)
 
-item = mytuple[0] #selects first index in tuple
+item = mytuple[0] #selects first index in tuple; negative index goes from back to front
 
 print(item)
+
+# mytuple[0] = "Tim" # this will throw an error becuase tuples are immutable.
+
+if "Max" in mytuple:  #check a tuple to see if an element is present
+    print("yes")
+else:
+    print("No")
+
 
