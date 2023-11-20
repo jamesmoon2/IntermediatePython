@@ -26,3 +26,11 @@ print(mytuple.index(28)) #returns the index  of the identified value
 my_list = list(mytuple) #converts a tuple into a list
 
 print(my_list)
+
+#slicing a tuple - access subparts by using a colon
+
+a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+b = a[2:5] # select a given range of a tuple using index ranges
+
+print(b)
