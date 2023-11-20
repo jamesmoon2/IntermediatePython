@@ -18,3 +18,11 @@ else:
     print("No")
 
 print(len(mytuple)) #returns the number of elements in a tuple
+
+print(mytuple.count("Max")) #counts the number of times a value appears in an tuple
+
+print(mytuple.index(28)) #returns the index  of the identified value
+
+my_list = list(mytuple) #converts a tuple into a list
+
+print(my_list)
