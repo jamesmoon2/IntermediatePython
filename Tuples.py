@@ -17,4 +17,4 @@ if "Max" in mytuple:  #check a tuple to see if an element is present
 else:
     print("No")
 
-
+print(len(mytuple)) #returns the number of elements in a tuple
