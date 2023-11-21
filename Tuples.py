@@ -1,4 +1,5 @@
 # tuples: ordered, immutable, allows duplicate elements; must have a comma to be a tuple
+# tuples use fewer bytes than lists; more efficient use of memory
 
 mytuple = ("Max", 28, "Boston")
 
@@ -44,4 +45,12 @@ name, age, city = mytuple #these must match or we get an error
 print(name)
 
 #You can use a star to unpack multiple elements and convert them into a list
+
+i1, *i2, i3 = a
+
+print(i1)
+print(i2)  #converts middle numbers to a list
+print(i3)
+
+
 
