@@ -31,6 +31,17 @@ print(my_list)
 
 a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-b = a[2:5] # select a given range of a tuple using index ranges
+b = a[2:5] # select a given range of a tuple using index ranges; does not include the last number in the index
+#leave first index blank to start from the beginnning; leave stop index blank to leave to the end; step argument
+#allows you to take more than one step per selection
 
 print(b)
+
+#unpack a tuple
+
+name, age, city = mytuple #these must match or we get an error
+
+print(name)
+
+#You can use a star to unpack multiple elements and convert them into a list
+
